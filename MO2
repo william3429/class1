@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Example</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td colspan="4"><h1>HTML Table Example</h1></td>
+    </tr>
+    <tr>
+        <td><h2>Column 1</h2></td>
+        <td><h2>Column 2</h2></td>
+        <td><h2>Column 3</h2></td>
+        <td><h2>Column 4</h2></td>
+    </tr>
+    <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+        <th>Header 4</th>
+    </tr>
+    <tr>
+        <td><b>Title 1</b></td>
+        <td><b>Title 2</b></td>
+        <td><b>Title 3</b></td>
+        <td><b>Title 4</b></td>
+    </tr>
+    <tr>
+        <td colspan="4"><b>Instruction</b> - Merged rows content here</td>
+    </tr>
+</table>
+
+</body>
+</html>
